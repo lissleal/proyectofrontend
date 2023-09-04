@@ -1,0 +1,51 @@
+.anuncio{
+    background-color: var(--color-violeta);
+    width: 100%;
+    padding: 2rem;
+    min-height: 250px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.anuncio__texto{
+color: white ;
+font-size: 3rem;
+width: 30%;
+}
+.button--grey{
+    background-color: var(--color-gris-claro);
+}
+
+
+@media(max-width:480px){
+
+    .anuncio{
+        height: auto;
+        padding: 2rem;
+        flex-direction: column;
+        background-color: var( --color-celeste);
+    }
+
+    .anuncio__texto{
+        width: 100%;
+        color: white ;
+        font-size: 3.5rem;
+        text-align: center;
+    
+        }
+    .anuncio__texto span:first-of-type{
+        display: block;
+        text-align: center;
+    }
+    .anuncio__texto span:last-of-type{
+        display: block;
+        text-align: center;
+    }
+    .button--grey{
+        background-color: var(--color-azul-muy-oscuro);
+        color: white;
+        margin-top: 2rem;
+    }
+}

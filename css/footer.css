@@ -1,0 +1,172 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 230px;
+    background-color: var(--color-azul-oscuro);
+    color: white;
+ 
+}
+.footer__container{
+    margin-top: 2rem;
+    height: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+/* primera seccion izquierda  */
+
+.footer-iconos{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-iconos__logo{
+    scale: 80%;
+}
+
+.social-media{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+   
+} 
+
+.social-media a i{
+    color: white;
+}
+
+
+/* menu */
+.footer-menu__container{
+    width: 30%;
+}
+.footer-menu{
+    height: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+.footer-menu__item{
+    height: 25%;
+}
+
+.footer-menu__item a{
+    text-decoration: none;
+    color: var(--color-gris-claro);
+}
+/* barra */
+.footer-barra{
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-barra__input{
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding-left: 1rem;
+}
+
+.footer-barra__input::placeholder{
+   color: var(--color-azul-oscuro);
+}
+.button--footer{
+   width: 25%;
+   border: none;
+}
+/* copy anuncio */
+
+.copyrigth-anuncio{
+    margin-right: 7%;
+    align-self: flex-end;
+}
+
+@media(max-width:480px){
+
+
+    .footer{
+        height: auto;
+        min-height: 400px;
+        padding: 2rem;
+     
+    }
+    /* logo y social media  */
+
+    .footer__container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .footer-iconos{
+        order: 3;
+        width: 100%;
+        margin-top: 3rem;
+    }
+    .footer-iconos__logo{
+       
+        order: 2;
+        scale: 30%;
+    }
+    
+
+    /* menu */
+    .footer-menu__container{
+        margin-left: 3rem;
+        margin-top: 2rem;
+        height: 150px;
+        width: 100%;
+        order: 2;
+      
+        
+    }
+    .footer-menu{
+        
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .footer-menu__item{
+        height: 25%;
+       
+    }
+    
+    
+
+    /* barra */
+    .footer-barra{
+        order: 1;
+        width: 100%;
+    
+    }
+    
+    .footer-barra__input{
+        width:60%;
+    }
+    
+    
+    .button--footer{
+       width: 15%;
+       border: none;
+    }
+
+    .copyrigth-anuncio{
+        margin-right: 0;
+        align-self: center;
+    }
+    
+    
+    
+    
+}

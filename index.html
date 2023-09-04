@@ -10,8 +10,14 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap"
       rel="stylesheet"
     />
+    <!-- fontawesonent -->
+    <script src="https://kit.fontawesome.com/c8f262e966.js" crossorigin="anonymous"></script>
+
     <!-- agregar hoja estilos de aqui para abajo -->
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/mejor-mes.css">
+    <link rel="stylesheet" href="css/anuncio.css">
+    <link rel="stylesheet" href="css/footer.css">
     <title>Proyecto Final</title>
   </head>
 
@@ -67,17 +73,93 @@
           </div>
       </section>
 
-      <!-- mejores del mes y cartas -->
-      <section class="mejor-mes">
-        <div class="mejor-mes__card"></div>
-      </section>
 
-      <!-- anuncio de los equipos  -->
-
-      <section class="anuncio"></section>
-    </main>
-
-    <!-- pie de pagina -->
-    <footer></footer>
+         <!-- mejores del mes y cartas -->
+         <section class="mejor-mes">
+          <h1 class="mejor-mes__titulo" >Best of the month</h1>
+          <!-- primera carta  -->
+          <div class="cartas-personas__container">
+            
+            <div class="carta-persona">
+              <img class="carta-persona__imagen" src="imagenes/avatar-sanyo.png" alt="">
+              <h3 class="carta-persona__nombre">Sergio</h3>
+              <p class="carta-persona__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto dicta perferendis nulla rerum debitis enim tempora itaque minima rem nostrum vel doloremque magnam sequi eveniet labore dolor harum, eum voluptate.</p>
+            </div>
+  
+            <!-- segunda carta -->
+  
+       
+  
+              <div class="carta-persona">
+                <img class="carta-persona__imagen" src="imagenes/avatar.lebron.png" alt="">
+                <h3 class="carta-persona__nombre">Lebron</h3>
+                <p class="carta-persona__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto dicta perferendis nulla rerum debitis enim tempora itaque minima rem nostrum vel doloremque magnam sequi eveniet labore dolor harum, eum voluptate.</p>
+              </div>
+  
+              <!-- tercera carta -->
+  
+              
+                <div class="carta-persona">
+                  <img class="carta-persona__imagen" src="imagenes/avatar-navarro.png" alt="">
+                  <h3 class="carta-persona__nombre">Navarro</h3>
+                  <p class="carta-persona__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto dicta perferendis nulla rerum debitis enim tempora itaque minima rem nostrum vel doloremque magnam sequi eveniet labore dolor harum, eum voluptate.</p>
+                </div>
+          </div>
+         
+       
+  
+          <a class="button button--morado" href="">More</a>
+          
+  
+  
+        </section>
+  
+        <!-- anuncio de los equipos  -->
+  
+        <section class="anuncio">
+  
+          <p class="anuncio__texto">Get to know the<span> best</span> teams of the <span>year</span></p>
+          <a class="button button--grey" href="">Go for it</a>
+        </section>
+  
+      </main>
+  
+      <!-- pie de pagina -->
+      <footer class="footer">
+        <div class="footer__container">
+  
+       
+        <div class="footer-iconos">
+          <img class="footer-iconos__logo" src="imagenes/logo footer.svg" alt="">
+          <ul class="social-media">
+            <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-youtube"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-pinterest"></i></i></a></li>
+            <li><a href=""><i class="fa-brands fa-square-instagram"></i></i></a></li>
+            
+          </ul>
+        </div>
+        <div class="footer-menu__container">
+          <ul class="footer-menu">
+            <li class="footer-menu__item"> <a href="">Home</a></li>
+            <li class="footer-menu__item"> <a href="">Pricing</a></li>
+            <li class="footer-menu__item"> <a href="">Products</a></li>
+            <li class="footer-menu__item"> <a href="">About Us</a></li>
+            <li class="footer-menu__item"> <a href="">Training</a></li>
+            <li class="footer-menu__item"> <a href="">Comunnity</a></li>
+            <li class="footer-menu__item"> <a href="">Privacity Policy</a></li>
+  
+          </ul>
+        </div>
+  
+        <form action="#" class="footer-barra">
+          <input class="footer-barra__input" type="text" placeholder="Update in your inbox">
+          <button type="submit" href="" class=" button button--footer button--morado">Go</button>
+        </form>
+  
+      </div>
+      <p class="copyrigth-anuncio">Copyright 2020. All Rights Reserved</p>
+      </footer>
   </body>
 </html>

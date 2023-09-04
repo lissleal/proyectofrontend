@@ -1,0 +1,86 @@
+.mejor-mes{
+    padding: 2rem;
+    width: 100%;
+    height: auto;
+    min-height: 700px;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.mejor-mes__titulo{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: var(--font-secundaria)
+}
+
+.cartas-personas__container{
+    max-width: 100%;
+    display: flex;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    gap: 2rem;
+}
+.carta-persona{
+    background-color: var(--color-gris-claro);
+    position: relative;
+    height: auto;
+    min-height: 300px;
+    
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+}
+.carta-persona__imagen{
+    position: absolute;
+    top: -35px;
+    left: 41%;
+    right: 50%;
+}
+.carta-persona__nombre{
+    text-align: center;
+    margin-top: 1.5rem;
+}
+.carta-persona__texto{
+    margin-top: 1.5rem;
+    line-height: 1.5rem;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 14px;
+    width: 100px;
+    height: 30px;
+    font-size: .8rem;
+    font-family: var(--font-secundaria);
+    
+} 
+.button--morado{
+    color: white;
+    background-color: var(--color-violeta);
+}
+@media(max-width:480px){
+
+    .mejor-mes{
+        
+       max-width: 480px;
+    }
+    .cartas-personas__container{
+        margin: 0;
+        max-width: 480px;
+        
+    }
+    .cartas-personas__container div:first-of-type{
+        display: none;
+    }
+    .cartas-personas__container div:last-child{
+        display: none;
+    }
+}

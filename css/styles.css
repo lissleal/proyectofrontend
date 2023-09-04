@@ -9,8 +9,8 @@
 
 
     /* fuente */
-    --font-principal:font-family:'Be Vietnam Pro','Montserrat', sans-serif;
-    --font-secundaria: font-family:'Montserrat', sans-serif;
+    --font-principal:'Be Vietnam Pro','Montserrat', sans-serif;
+    --font-secundaria: 'Montserrat', sans-serif;
      /*para usar la fuente poner-> var(--font-principal) */
     
 }
@@ -22,6 +22,9 @@
 }
 
 .container_principal{
-    width: 1440px;
+    width: 100%;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
