@@ -1,0 +1,27 @@
+:root {
+    /* colores */
+    --color-violeta: #8B48BF;    /* Rojo */
+    --color-celeste: #3CDDF3;  /* Verde */
+    --color-azul-oscuro: #1E1E26;
+    --color-azul-muy-oscuro: #232851;  
+    --color-gris-claro: rgb(249, 249, 249);
+    /*para usar las variables poner-> var(--color-azul-muy-oscuro) */
+
+
+    /* fuente */
+    --font-principal:font-family:'Be Vietnam Pro','Montserrat', sans-serif;
+    --font-secundaria: font-family:'Montserrat', sans-serif;
+     /*para usar la fuente poner-> var(--font-principal) */
+    
+}
+
+*{    
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container_principal{
+    width: 1440px;
+}
+
