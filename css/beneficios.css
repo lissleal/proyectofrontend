@@ -1,5 +1,7 @@
 .beneficios__intro{
     display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: .8rem;
     gap: 70px;
     font-family: var(--font-principal);
@@ -47,6 +49,9 @@
 .carta__texto__titulo {
     font-weight: 700;
 }
+.titulo_vista_movil {
+    display: none;
+}
 .carta__texto {
     font-weight: 500;
     line-height: 25px;
@@ -65,4 +70,70 @@ text-align: justify;
     font-family: var(--font-principal);
     background-color: var(--color-violeta);
     color: #FFF;
+}
+
+@media(max-width:480px){
+    .beneficios {
+        flex-direction: column;
+    }
+    .beneficios__intro{
+        background-color: #3CDDF3;
+        flex-direction: column;
+        gap: 50px;
+        padding: 20px 40px;
+    }
+    .beneficios__intro__titulo {
+        font-size: 36px;
+        font-weight: 700;
+        width: 100%;
+    }
+    
+    .beneficios__intro__texto {
+        width: 100%;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .beneficios__cartas {       
+        gap: 10px;
+        padding: 20px 0 20px 30px;
+    }
+
+    .carta {
+        flex-direction: column;
+    }
+    .carta__texto__titulo{
+        display: none;
+    }
+    .contenedor__titulo {
+        display: flex;
+        background-color: rgba(139, 72, 191, 0.30);
+        color: #323851;
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        border-radius: 15px 0 0 15px;
+        
+    }
+    .texto1::after {
+        content: "Track company-wide progress";
+        padding-left: 20px;
+    }
+    .texto2::after {
+        content: "Advance built-in reports";
+        padding-left: 20px;
+    }
+    .texto3::after {
+        content: "Everything you need in one place";
+        padding-left: 20px;
+    }
+    .titulo_vista_movil {
+        display: flex;
+        background-color: rgba(139, 72, 191, 0.30);
+    }
+    .carta__texto {
+        color: #B3B2B7;
+        padding-right: 40px;
+    }
 }

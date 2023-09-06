@@ -18,6 +18,11 @@
     font-size: 13px;
 }
 
+.menu_hamburguesa {
+    display: none;
+    font-size: 50px;
+}
+
 .header__menu__boton {
     display: flex;
     justify-content: center;
@@ -37,5 +42,23 @@
 
 .header__menu__item:hover{
     color:  rgba(36, 46, 82, 0.60);
+    
+}
+
+@media(max-width:480px){
+    .header {
+        padding: 40px;     
+    }
+
+    .header__menu__container{
+        display: none;
+    }
+    .header__menu__boton{
+        display: none;
+    }
+
+    .menu_hamburguesa {
+        display: inline;
+    }
     
 }
