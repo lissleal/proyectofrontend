@@ -47,6 +47,7 @@
 }
 .carta-persona__texto{
     font-family: var(--font-principal);
+    color: rgba(185, 185, 193, 1);
     margin-top: 1.5rem;
     line-height: 1.5rem;
 }
