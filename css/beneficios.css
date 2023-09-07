@@ -54,6 +54,7 @@
 }
 .carta__texto {
     font-weight: 500;
+    color: rgba(185, 185, 193, 1);
     line-height: 25px;
 letter-spacing: -0.163px;
 text-align: justify;
