@@ -21,15 +21,15 @@
 
 .principal__texto__titulo{
     color: #232C50;
-font-size: 3.13rem;
-font-weight: 700;
-letter-spacing: -1.75px;
+    font-size: 3.13rem;
+    font-weight: 700;
+    letter-spacing: -1.75px;
 }
 
 .principal__texto{
     color: black;
-font-size: 1rem;
-line-height: 2rem;
+    font-size: 1rem;
+    line-height: 2rem;
 }
 
 .principal__boton {
@@ -50,7 +50,7 @@ line-height: 2rem;
 }
 
 .principal__boton:hover {
-    background-color: rgba(139, 72, 191, 0.7);
+    background-color: var(--color-violeta-claro);
 }
 
 @media(max-width:480px){

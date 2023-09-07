@@ -41,7 +41,7 @@
 }
 
 .header__menu__boton:hover {
-    background-color: rgba(139, 72, 191, 0.7);
+    background-color: var(--color-violeta-claro);
 }
 
 .header__menu__item:hover{

@@ -6,13 +6,11 @@
     --color-azul-oscuro: #1E1E26;
     --color-azul-muy-oscuro: #232851;  
     --color-gris-claro: rgb(249, 249, 249);
-    /*para usar las variables poner-> var(--color-azul-muy-oscuro) */
 
 
     /* fuente */
     --font-principal:'Be Vietnam Pro','Montserrat', sans-serif;
     --font-secundaria: 'Montserrat', sans-serif;
-     /*para usar la fuente poner-> var(--font-principal) */
     
 }
 

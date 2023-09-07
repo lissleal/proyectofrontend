@@ -74,15 +74,14 @@
 }
 
 .carta__boton:hover {
-    background-color: rgba(139, 72, 191, 0.7);
-}
+    background-color: var(--color-violeta-claro);}
 
 @media(max-width:480px){
     .beneficios {
         flex-direction: column;
     }
     .beneficios__intro{
-        background-color: #3CDDF3;
+        background-color: var(--color-celeste);
         flex-direction: column;
         gap: 3.12rem;
         padding: 1.25rem 2.5rem;
@@ -113,7 +112,7 @@
     .contenedor__titulo {
         display: flex;
         background-color: rgba(139, 72, 191, 0.30);
-        color: #323851;
+        color: var(--color-azul-muy-oscuro);
         font-weight: 700;
         display: flex;
         align-items: center;
