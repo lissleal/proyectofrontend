@@ -72,6 +72,10 @@ text-align: justify;
     color: #FFF;
 }
 
+.carta__boton:hover {
+    background-color: rgba(139, 72, 191, 0.7);
+}
+
 @media(max-width:480px){
     .beneficios {
         flex-direction: column;

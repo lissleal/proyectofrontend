@@ -49,6 +49,10 @@ line-height: 2rem;
     
 }
 
+.principal__boton:hover {
+    background-color: rgba(139, 72, 191, 0.7);
+}
+
 @media(max-width:480px){
     .principal{
         flex-direction: column;

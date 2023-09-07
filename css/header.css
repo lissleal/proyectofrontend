@@ -40,6 +40,10 @@
     
 }
 
+.header__menu__boton:hover {
+    background-color: rgba(139, 72, 191, 0.7);
+}
+
 .header__menu__item:hover{
     color:  rgba(36, 46, 82, 0.60);
     
