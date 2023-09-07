@@ -1,6 +1,7 @@
 :root {
     /* colores */
-    --color-violeta: #8B48BF;    /* Rojo */
+    --color-violeta: #8B48BF; 
+    --color-violeta-claro: rgba(139, 72, 191, 0.7);  /* Rojo */
     --color-celeste: #3CDDF3;  /* Verde */
     --color-azul-oscuro: #1E1E26;
     --color-azul-muy-oscuro: #232851;  

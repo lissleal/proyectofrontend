@@ -1,5 +1,6 @@
 .anuncio{
     background-color: var(--color-violeta);
+    font-family: var(--font-principal);
     width: 100%;
     padding: 2rem;
     min-height: 250px;
@@ -17,6 +18,11 @@ width: 30%;
 .button--grey{
     background-color: var(--color-gris-claro);
 }
+.button--grey:hover{
+    background-color: var(--color-celeste);
+}
+
+
 
 
 @media(max-width:480px){
@@ -48,4 +54,9 @@ width: 30%;
         color: white;
         margin-top: 2rem;
     }
+
+    .button--grey:hover{
+        background-color: var(--color-violeta);
+    }
+    
 }
