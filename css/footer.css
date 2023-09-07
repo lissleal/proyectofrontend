@@ -4,6 +4,7 @@
     width: 100%;
     height: 230px;
     background-color: var(--color-azul-oscuro);
+    font-family: var(--font-principal);
     color: white;
  
 }
