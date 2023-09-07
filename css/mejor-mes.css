@@ -46,6 +46,7 @@
     margin-top: 1.5rem;
 }
 .carta-persona__texto{
+    font-family: var(--font-principal);
     margin-top: 1.5rem;
     line-height: 1.5rem;
 }
